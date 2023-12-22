@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("file:///C:/Users/theri/OneDrive/Desktop/PRAKASH/Flex%20box%20project/images/photo-1533481405265-e9ce0c044abb.avif");
+    background-size: cover;
+
+}
+.titlebar {
+    font-size: 40px;
+    padding: 5px;
+    margin: 2px;
+    color: green;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+        
+    
+}
+.container div:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.container div{
+    width: 200px;
+    color: red;
+    margin: 50px;
+    padding-right: 20px;
+    text-align: center;
+}
